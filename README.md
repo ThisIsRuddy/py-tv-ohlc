@@ -4,7 +4,7 @@
 - `pip install dotenv aiohttp`
 
 ### Setup & Usage
-- Copy `.env.SAMPLE` to `.env` and fill in the required values.
+- Copy `.env.SAMPLE` to a new file called `.env` and fill in the required values.
   - `TV_SESSION_ID` TradingView session ID
   - `TV_MAX_CANDLES` increase this to match you TV subscription (10000 Standard, 20000 Premium, 40000 Ultimate)
 - Edit `src/index.py` and adjust the symbols + timeframes as required.
